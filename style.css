@@ -2,16 +2,19 @@
 body {
   margin: 0;
   padding: 0;
+ 
 }
 
 .main-login {
   width: 100vw;
   height: 100vh;
-  background-color: #201b2c;
+  /* background-color: #201b2c; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  background-image: linear-gradient(to bottom, #534d4d, #1a1818, #141414);
+  
 }
 
 /* .left-login{
@@ -28,7 +31,7 @@ body {
 } */
 
 .right-login-image {
-  width: 60%;
+  width: 70%;
   padding-top: 0;
 }
 
@@ -47,9 +50,12 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 30px 35px;
-  background: #464646;
+  /* background: #464646; */
   border-radius: 20px;
   box-shadow: 0px 10px 40px #00000056;
+  /* opacity: 0.3; */
+  background-color: rgba(0, 0, 0, 0.1);
+  
 }
 
 .card-login > h1 {
@@ -86,6 +92,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  color: #c49923;
 }
 
 .textfield > input::placeholder {
